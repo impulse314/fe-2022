@@ -1,0 +1,69 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 106px;
+
+    position: relative;
+    width: 100%;
+    height: 80px;
+
+    background: #111827;
+}
+.leading-content{
+    display: flex;
+    align-items: center;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+}
+.menu-nav{
+    display: flex;
+    
+}
+.header-logo{
+    display: flex;
+}
+.nav-item{
+    display: flex;
+    flex-flow: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    color: #ffffff;
+}
+.menu-nav li a {
+    display: flex;
+    padding: 5px;
+}
+.menu-nav li a:hover {
+    background: #000;
+    color: #fff;
+    border-radius: 6px;
+    transition: .5s
+}
+
+.profile-name{
+    display: flex;
+    flex-flow: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    color: #ffffff;
+    padding: 15px;
+}
+.trailing-content{
+    display: flex;
+
+    align-items: center;
+
+
+}

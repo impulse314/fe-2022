@@ -1,0 +1,58 @@
+.useful-section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px
+}
+.useful-section-title{
+    font-weight: bold;
+    font-size: 32pt;
+    padding-bottom: 50px;
+}
+/*ЛЕВАЯ ЧАСТЬ*/
+.aside-left{
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 578px;
+    background-color: #FCFFE7;
+}
+.menu-title{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 20pt;
+    font-weight: bold;
+}
+.menu-nav ul{
+    padding-top: 16px;
+    font-size: 16pt;
+}
+.menu-nav li{
+    padding-left: 30px;
+}
+/*ПРАВАЯ ЧАСТЬ*/
+.news{
+    
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 832px;
+    height: 578px;
+}
+.news-title{
+    font-weight: bold;
+    font-size: 23pt;
+    padding-left: 32px;
+    padding-top: 30px;
+    padding-bottom: 26px;
+}
+.news-part{
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 26px;
+}
+.news-subtitle{
+    padding-bottom: 15px;
+    font-size: 24pt;
+}
+.news-text{
+    font-size: 14pt;
+    padding-bottom: 20px;
+}

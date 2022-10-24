@@ -1,0 +1,71 @@
+.blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 100px;
+  }
+  .wrapper{
+    padding-top: 156px;
+    padding-bottom: 48px;
+    text-align: center;
+    color: #6B7280;
+    font-size: 20pt;
+  }
+  .blog-post{
+      border: 1px solid black;
+      border-radius: 8px;
+      height: 520px; 
+      width: 406px;
+      flex-direction: column;
+      display: flex;
+  }
+  .blog-post-photo{
+      border-radius: 8px 8px 0px 0px;
+
+  }
+  .blog-post-title{
+      margin-top: 24px;
+      margin-left: 24px;
+      margin-right: 24px;
+      font-weight: bold;
+      font-size: 20px;
+      color: #111827;
+  }
+  
+  .blog-post p{
+      margin-top: 12px;
+      margin-left: 24px;
+      margin-right: 24px;
+      font-size: 16px;
+      color: #6B7280;
+  }
+.blog-post-text{
+    line-height: 24px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.blog-post-pred-title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    flex-grow: 1;
+}
+.supporting-text{
+    
+    color: #6B7280;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    padding-left: 24px;
+    padding-right: 150px;
+    padding-bottom: 24px;   
+    align-items: end; 
+}
+.zalupa{
+    display: flex;
+    align-items: flex-end;
+}
